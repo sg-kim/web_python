@@ -1,1 +1,0 @@
-./1_hello_world/helloWorld.py.run
