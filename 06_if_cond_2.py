@@ -6,6 +6,10 @@ print('Hello web')
 import cgi
 form = cgi.FieldStorage()
 pageId = form["id"].value
+if pageId:
+	pageId = pageId
+else:
+	pageId = 'WEB'
 
 #	docstring
 print('''<!doctype html>
